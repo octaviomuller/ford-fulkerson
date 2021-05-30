@@ -13,7 +13,7 @@ class Graph:
         self.vertices.append(value)
         self.edges[value] = []
 
-    # Ediciona aresta
+    # Adiciona aresta
     def add_edge(self, origin, destination, weight):
         # Caso origem não esteja nos vértices adiciona
         if origin not in self.vertices:
